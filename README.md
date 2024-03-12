@@ -78,8 +78,8 @@ ORDER BY number_of_customers_per_state DESC;
 - **Strategic Insights**: Overall, the analysis provided valuable insights into customer distribution patterns across states, highlighting key areas for targeted marketing campaigns and strategic decision-making to optimize business growth.
 
   
-  ![SQL insight](https://github.com/Clifford254KE/SQL/assets/140185917/b1be4b9a-fd90-46a6-8a9b-8908ae0bb47a)
-![Tableau Viz](https://github.com/Clifford254KE/SQL/assets/140185917/9a44ed7d-b1d1-45cb-97a0-012fc4de570b)
+  ![SQL insight](https://github.com/Clifford254KE/SQL/assets/140185917/b1be4b9a-fd90-46a6-8a9b-8908ae0bb47a)![Tableau Viz](https://github.com/Clifford254KE/SQL/assets/140185917/9a44ed7d-b1d1-45cb-97a0-012fc4de570b)
+
 
 
 ### Recommendations

@@ -77,6 +77,10 @@ ORDER BY number_of_customers_per_state DESC;
 
 - **Strategic Insights**: Overall, the analysis provided valuable insights into customer distribution patterns across states, highlighting key areas for targeted marketing campaigns and strategic decision-making to optimize business growth.
 
+  
+  ![SQL insight](https://github.com/Clifford254KE/SQL/assets/140185917/b1be4b9a-fd90-46a6-8a9b-8908ae0bb47a)
+
+
 ### Recommendations
 ---
 - **Targeted Marketing Campaigns**: Focus marketing efforts on states with the highest number of customers, such as California, Texas, and New York, to maximize customer engagement and retention.

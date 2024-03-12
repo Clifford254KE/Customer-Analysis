@@ -17,7 +17,7 @@ The dataset used in this project contains information about customers, including
 - PostgreSQL- Used for storing and querying the customer dataset 
 - pgAdmin- A software environment used for writing, testing, and executing SQL queries. 
 - Excel for data cleaning
-- Tableau for data for creating dashboard and reporting
+- Tableau for data for creating a dashboard and reporting
 
 ### Data Cleaning and Preparation
 ---

@@ -2,48 +2,44 @@
 
 ### Project Overview
 ---
-This project involves analyzing customer data to identify states with the highest customer engagement or sales. Utilizing SQL queries, the analysis categorizes states based on customer counts into three segments: 'better', 'need_more_marketing', and 'bad'. The insights gained from this analysis inform targeted marketing strategies and resource allocation for business growth.
+This project involves analyzing customer data to identify states with higher, moderate, and lower customer engagement or sales. Utilizing SQL queries, the analysis categorizes states based on customer counts into three segments: 'better (higher)', 'need_more_marketing (moderate)', and 'bad (lower)'. The insights gained from this analysis inform targeted marketing strategies and resource allocation for business growth.
 
 ### Data Source
 ---
 
-The dataset used in this project contains information about customers, including their state of residence and segment. It likely includes fields such as:
+The dataset used in this project contains information about customers, including their state of residence and segment. It includes fields such as:
 
 - State: The state where the customer resides.
-- Segment: The segment to which the customer belongs (e.g., 'Consumer', 'Corporate', 'Home Office').
+- Segment: The segment to which the customer belongs ( 'Consumer', 'Corporate', 'Home Office').
 
 ### Tools 
 ---
 - PostgreSQL- Used for storing and querying the customer dataset 
 - pgAdmin- A software environment used for writing, testing, and executing SQL queries. 
 - Excel for data cleaning
-- Tableau for data for creating a dashboard and reporting
+- Tableau for creating a dashboard and reporting
 
 ### Data Cleaning and Preparation
 ---
 **Excel**
 
-- Import dataset.
-- Remove duplicates and handle missing values.
-- Standardize formats and correct errors.
-- Transform and derive new columns if necessary.
+- Removed duplicates and handled missing values.
+- Standardized formats and corrected errors.
 - Export cleaned dataset.
   
 **PostgreSQL**
 
-- Create/import dataset
-- Remove duplicates and handle missing values using SQL queries.
-- Transform data with SQL queries.
-- Validate data integrity with constraints.
-- Export cleaned dataset.
+- The dataset from Excel was imported in the form of a CSV.
+- A query was run to check if there are any available duplicates and missing that might have been missed by Excel.
+- A query was then run to meet the objective of the project.
+-  The prepared data was then exported to the tableau.
   
 **Tableau**
 
-- Connect to cleaned dataset.
-- Explore and visualize data.
-- Perform additional cleaning or transformation if needed.
-- Design visualizations.
-- Share insights through interactive dashboards.
+- The prepared dataset was connected to Tableau.
+- It was then Explored
+- Designed visualizations.
+- Shared insights through an interactive dashboard.
 
 ### Exploratory Data Analysis (EDA)
 ---
@@ -51,10 +47,10 @@ The dataset used in this project contains information about customers, including
 - What is the distribution of customers across different states?
 - Which states need more marketing efforts to increase customer engagement?
 - Are there any states where customer engagement is particularly low, indicating potential areas for improvement?
-- What are the key insights derived from the customer segmentation analysis that can inform strategic decision-making for business growth?
 
 ### Data Analysis
 ---
+This is the code that produced the desired dataset which was used in Tableau for visualization and dashboarding. The code is returning three fields (columns) namely: state, number of customers per state, and ranking per state depending on the available customers. The dataset in uploaded above.
 ```slq
 SELECT state, COUNT (segment) AS number_of_customers_per_state, 
 (CASE WHEN COUNT (segment)> 10 THEN 'better'

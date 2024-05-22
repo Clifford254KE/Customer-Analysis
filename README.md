@@ -1,4 +1,4 @@
-  #  Customer Analysis Project
+  #  Customer Analysis Project- Excel, SQL, Tableau
 
 ## Table of Contents
 ---

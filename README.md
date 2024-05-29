@@ -1,6 +1,6 @@
   #  Customer Analysis Project- Excel, SQL, Tableau
 
-## Table of Contents
+## Table of Content
 ---
 ### [Project Overview](project-overview)
 ### [Data Source](data-source)
